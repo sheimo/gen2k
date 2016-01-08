@@ -1,39 +1,57 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 __author__    = 'irenicus09'
 __email__     = 'irenicus09[at]gmail[dot]com'
-__license__   = 'BSD'
-__version__   = 'BETA'
-__date__      = '18/05/2013'
+__license__   = 'BSDv4'
+__version__   = '1.1'
+__date__      = '8/1/2016'
 
 import sys
 
 
 """
-##############################  GEN2K  ####################################
+###########################################################################
+                    
+Gen2k - Automated Word List Generator 
+Copyright © 2016 irenicus09
+All rights reserved.
 
-                    Automated Word List Generator
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+3. Neither the name of the organization nor the
+names of its contributors may be used to endorse or promote products
+derived from this software without specific prior written permission.
 
-> Generates passwords combinations by combining words from wordlist.
-> Covers frequently used number patterns used along with words.
-> Generates passwords combinations using year/date combo.
-> Generates custom user defined value(s) combination with word list.
-> Option to auto convert words to upper/lowercase & capitalisation.
-> WPA/WPA2 password validation check.
-> No external dependencies.
+THIS SOFTWARE IS PROVIDED BY yourname ''AS IS'' AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL yourname BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ---------------------------------------------------------------------------
 
-                            HINTS:
 
-  * DO NOT USE A GENERAL PURPOSE WORDLIST
-  * SUPPLIED WORDLIST MUST ONLY CONTAIN KNOWN FACTS ABOUT TARGET
-    E.G NAMES, ADDRESS, FAVORITE ARTIST, PLACE, EVENT, ETC.
-  * TRY TO KEEP WORDLIST AT A MINIMUM, DON'T INCLUDE TOO MUCH DETAILS
-  * THE FINAL GENERATED WORD LIST CAN GET EXTREMELY LARGE!
 
 ###########################################################################
 """
+
+# TODO
+# 1) Make it memory efficient
+# 2) Better sorting algorithm
+# 3) More practical features
+#   - Modular design
+#   - Minimal progress bar 
+#   - Slice wordlist into smaller chunks
 
 
 def help():
@@ -50,7 +68,7 @@ def help():
 
          ======= Automated Word List Generator =======
 
-                Copyright (C) irenicus09 2013
+                Copyright (C) irenicus09 2016
 
 
     USAGE: ./gen2k.py -w <wordlist> -o <output> [options]

@@ -8,16 +8,21 @@ As many of you know, people tend to use birth year, specific dates, random numbe
 Gen2k aims to exploit those types of weaknesses along with conversion of words to different case combination to make your word list completely personalized & appropriate for the situation.
 
 
-FEATURES
-========
 
-* Generates password combinations by combining supplied words.
-* Mixes frequently used number patterns with words.
-* Generates password combinations using year/date combo.
-* Mixes custom user defined value(s) combination with words.
-* Option to auto convert words to upper/lowercase & capitalisation.
-* WPA/WPA2 password validation check.
-* No external dependencies.
+FEATURES
+--------
+> Generates complex password combinations 
+> Easy to configure & use
+> Written in Pure Python, with no external dependencies
+
 
 ![alt tag](help.png)
 
+
+Tips:
+------
+* DO NOT USE A GENERAL PURPOSE WORDLIST
+* SUPPLIED WORDLIST MUST ONLY CONTAIN KNOWN FACTS ABOUT TARGET
+  E.G NAMES, ADDRESS, FAVORITE ARTIST, PLACE, EVENT, ETC.
+* TRY TO KEEP WORDLIST AT A MINIMUM, DON'T INCLUDE TOO MUCH DETAILS
+* THE FINAL GENERATED WORD LIST CAN GET EXTREMELY LARGE!
