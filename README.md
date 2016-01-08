@@ -11,9 +11,9 @@ Gen2k aims to exploit those types of weaknesses along with conversion of words t
 
 FEATURES
 --------
-> Generates complex password combinations 
-> Easy to configure & use
-> Written in Pure Python, with no external dependencies
+* Generates complex password combinations 
+* Easy to configure & use
+* Written in Pure Python, with no external dependencies
 
 
 ![alt tag](help.png)
@@ -21,8 +21,8 @@ FEATURES
 
 Tips:
 ------
-* DO NOT USE A GENERAL PURPOSE WORDLIST
-* SUPPLIED WORDLIST MUST ONLY CONTAIN KNOWN FACTS ABOUT TARGET
-  E.G NAMES, ADDRESS, FAVORITE ARTIST, PLACE, EVENT, ETC.
-* TRY TO KEEP WORDLIST AT A MINIMUM, DON'T INCLUDE TOO MUCH DETAILS
-* THE FINAL GENERATED WORD LIST CAN GET EXTREMELY LARGE!
+* Do not use a general purpose wordlist
+* Supplied wordlist must only contain known facts about target
+  e.g names, address, favorite artist, place, event, etc.
+* Try to keep wordlist at a minimum, don't include too much details
+* The final generated word list can get extremely large!
