@@ -1,5 +1,5 @@
 #!/usr/bin/env python2
-
+# -*- coding: utf-8 -*-
 __author__    = 'irenicus09'
 __email__     = 'irenicus09[at]gmail[dot]com'
 __license__   = 'BSDv4'
